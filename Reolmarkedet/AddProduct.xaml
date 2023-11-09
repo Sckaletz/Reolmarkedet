@@ -1,0 +1,25 @@
+﻿<Page x:Class="Reolmarkedet.AddProduct"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Reolmarkedet"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddProduct">
+
+    <Grid Background="white">
+        <Button Content="Tilbage" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="BackButton"/>
+        <TextBox Name="txtStandID" HorizontalAlignment="Center" Margin="0,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtDescription" HorizontalAlignment="Center" Margin="0,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtPrice" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="0,220,0,0"/>
+
+        <Label Content="StandID" HorizontalAlignment="Left" Margin="267,148,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Beskrivelse" HorizontalAlignment="Left" Margin="267,179,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pris" HorizontalAlignment="Left"  Margin="267,212,0,0" VerticalAlignment="Top" />
+
+
+        <Button Content="Tilføj produkt" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Page>

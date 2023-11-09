@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateRenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateStand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FrontPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Renter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchRenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FrontPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateRenter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateStand.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Renter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchRenter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
